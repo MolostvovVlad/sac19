@@ -1,0 +1,243 @@
+
+body{
+	background-image: url(../img/bg.jpeg);
+	background-size: 100%;
+}
+.menu{
+position: absolute;
+width: 15%;
+left: 15%;
+top: 30%;
+
+background: #DDDDDD;
+border-radius: 21px;
+}
+.menublock{
+text-align: center;
+margin: 0 0 0 10%;
+width: 80%;
+height: 44px;
+left: 78px;
+top: 71px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+transition: 1s;
+}
+.menutext{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+
+
+color: #8E4687;
+}
+.menublock:hover{
+margin: 0 0 0 10%;
+width: 80%;
+height: 149px;
+left: 78px;
+top: 71px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px; 
+box-shadow: 0 0 20px rgba(1,1,1,1);
+padding: 10px;
+bottom: 20%;
+transition: 1s;
+}
+/*.fade{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background: #FFFFFF;
+}*/
+.info{
+position: absolute;
+width: 40%;
+left: 40%;
+bottom: -50%;
+background: #C4C4C4;
+border-radius: 17px;
+transition: 3s;
+font-family: Alpha_echo;
+src: url(../fonts/Alpha_echo.ttf) format("opentype");
+color:  #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+transition: 3s;
+}
+.logo1{
+position: absolute;
+width: 20%;
+height: 167px;
+left: 50%;
+top: -50%;
+background: #C4C4C4;
+mix-blend-mode: normal;
+filter: blur(50px);
+transition: 3s;
+color:  #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.info:hover{
+position: absolute;
+width: 40%;
+background: #fff;
+border-radius: 17px;
+transition: 1s;
+font-family: Alpha_echo;
+src: url(../fonts/Alpha_echo.ttf) format("opentype");
+color:  #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.textblur{
+position: absolute;
+left: 50%;
+top: -50%;
+transition: 3s;
+color:  #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.home{
+position: absolute;
+width: 127px;
+height: 28px;
+left: 5%;
+top: 5%;
+background: #DDDDDD;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+color: #8E4687;
+transition: 1s;
+}
+.home:hover{
+position: absolute;
+width: 150px;
+height: 28px;
+left: 5%;
+top: 5%;
+background: #fff;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+transition: 1s;
+}
+.head{
+position: absolute;
+width: 265px;
+height: 52px;
+left: 40%;
+top: 5%;
+background: #FFFFFF;
+border-radius: 6px;
+}.headtext{
+position: absolute;
+width: 87px;
+height: 28px;
+left:30%;
+top: 6%;
+font-weight: 900;
+font-size: 32px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.box{
+position: absolute;
+width: 80%;
+left: 10%;
+top: 30%;
+
+background: #DDDDDD;
+border-radius: 6px;
+}
+.map{
+	width: 100%;
+	padding: 10px;
+}
+.headtextserv{
+position: absolute;
+width: 87px;
+height: 28px;
+left:20%;
+top: 6%;
+font-weight: 900;
+font-size: 32px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.servisblock{
+margin: 0 0 0 10%;
+width: 100%;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+transition: 1s;
+}
+.headtextprovayder{
+position: absolute;
+width: 87px;
+height: 28px;
+top: 10%;
+font-weight: 900;
+font-size: 32px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.img{
+	width: 100%;
+	height: 100px;
+}
+.provayderblock{
+margin: 0 0 0 10%;
+width: 100%;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+transition:1s;
+}
+.headtext1{
+font-weight: 900;
+font-size: 32px;
+line-height: 28px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.covidtext{
+font-weight: 900;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #8E4687;
+text-shadow:  0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
