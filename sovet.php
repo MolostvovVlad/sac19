@@ -1,3 +1,5 @@
+<?php $con = mysqli_connect('127.0.0.1', 'root', '', 'sac19'); 
+	$query = mysqli_query($con, "SELECT * FROM post"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,22 +12,23 @@
 			<button class="home" style="outline: none;">На главную</button>
 		</a>
 	<div class="head">
-	<h1 class="headtext" style="left: 1%">Коронавирус</h1>
+	<h1 class="headtextserv" style="left:25%">Советы</h1>
 	</div>
 <div class="box">
-	<div class="col-12 d-flex px-0">
-		<div class="col-2"></div>
-		<div class="col-8 mt-5 mb-5">
-			<h1 class="headtext1 text-center">Симптомы коронавируса</h1>
-			<div class="col-12">
-				<h1 class="mt-5 headtext1 text-center">Основные симптомы коронавируса</h1>
-					<p>	1<p class="mt-5 covidtext text-center">высокая температура тела</p></p>
-			</div>
+	<div class="col-12 row">
+		<div class="col-1"></div>
+		<div class="col-3">
+			<?php for($i = 0; $i < $query->num_rows; $i++) {
+		$res = $query->fetch_assoc();?>
+				<h4><?php echo $res['heading']; 'class="headtextserv">' ?></h4>
+				<?php echo '<img src="' . $res['img'] . '" class="w-100">' ?>
+				
+		<?php } ?>
 		</div>
-		<div class="col-2"></div>
+		<div class="col-1"></div>
 	</div>
 </div>
-<audio autoplay="" loop="">
+ <audio autoplay="" loop="">
  	<source src="bgm.mp3" type="audio/mp3">
   </audio>
 </body>
